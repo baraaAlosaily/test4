@@ -21,7 +21,7 @@
       href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/css/cart2.css">
+    <link rel="stylesheet" href="./assets/css/cart2.css" />
 
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/grid.css" />
@@ -111,16 +111,17 @@
           <div class="menu-content pb-70 col-lg-9">
             <div class="title text-center">
               <h1 class="mb-10">Appetizers</h1>
+              <p id="itemCount"></p>
               <p>Choose from our delicious appetizers collection</p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
+        <div class="row my-meal">
+          <!-- <div class="col-lg-3 col-md-6">
             <div class="single-other-issue">
               <div class="thumb">
                 <img
-                  class="img-fluid"
+                  class="img-fluid" id=""
                   src="https://d2j8k8fxwhe17j.cloudfront.net/images/slider/%D8%A7%D9%84%D8%AD%D9%85%D8%B5.jpeg"
                   alt=""
                 />
@@ -282,24 +283,24 @@
               <p style="margin-top: 10px;font-weight: bold;" class="shop-item-price">5.00 JD</p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
 
-    <section class="container content-section">
+    <section
+      align="center"
+      style="align-items: center; margin-left: 300px; margin-top: 200px"
+      class="container content-section"
+    >
       <h2 class="section-header">CART</h2>
       <div class="cart-row">
         <span class="cart-item cart-header cart-column">ITEM</span>
         <span class="cart-price cart-header cart-column">PRICE</span>
         <span class="cart-quantity cart-header cart-column">QUANTITY</span>
       </div>
-      <div class="cart-items" id="cartitme">
-      </div>
-      <div class="cart-total">
-        <strong class="cart-total-title">Total</strong>
-        <span class="cart-total-price">3 JD</span>
-      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total"></div>
       <button class="btn btn-primary btn-purchase" type="button">
         Purchase
       </button>
@@ -420,5 +421,5 @@
       src="https://kit.fontawesome.com/9e5d1913ca.js"
       crossorigin="anonymous"
     ></script>
-</body>
+  </body>
 </html>
